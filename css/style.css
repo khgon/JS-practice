@@ -1,0 +1,80 @@
+.hidden {
+    display: none;
+}
+
+body {
+    text-align: center;
+    margin-left: 0px;
+    width: max-content;
+}
+
+h2 {
+    margin-top: 250px;
+    font-size: 80px;
+    margin-bottom: 50px;
+}
+
+#login-form {
+    margin-bottom: 50px;
+}
+
+#login-form input[type=text] {
+    width: 250px;
+    height: 33px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+#login-form input[type=submit] {
+    width: 80px;
+    height: 32px;
+    border-radius: 25px;
+    margin-top: auto;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 1.15px;
+	background-color: #4B70E2;
+	color: white;
+	box-shadow:
+        8px 8px 16px neu-2,
+		-8px -8px 16px white;
+	border: none;
+    outline: none;
+}
+
+#todo-form input[type=text] {
+    width: 332px;
+    height: 32px;
+    font-size: 15px;
+    border: 0;
+    border-radius: 15px;
+    outline: none;
+    padding-left: 10px;
+    background-color: rgb(233, 233, 233);
+}
+
+ul {
+    display: table;
+    list-style:none;
+    line-height: 200%;
+    margin-left: 200px;
+    margin-right: auto;
+    text-align: left;
+  }
+
+#weather {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 30px; 
+  }
+.contents {
+    width: 733px;
+}
+.contents, img {
+    float: left;    
+}  
