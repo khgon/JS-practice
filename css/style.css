@@ -3,9 +3,16 @@
 }
 
 body {
-    text-align: center;
-    margin-left: 0px;
+    display: flex;
+    margin: 0px;
     width: max-content;
+    text-align: center;
+}
+
+.contents {
+    display: flex;
+    flex-direction: column;
+    width: 733px;
 }
 
 h2 {
@@ -39,9 +46,6 @@ h2 {
     letter-spacing: 1.15px;
 	background-color: #4B70E2;
 	color: white;
-	box-shadow:
-        8px 8px 16px neu-2,
-		-8px -8px 16px white;
 	border: none;
     outline: none;
 }
@@ -72,9 +76,7 @@ ul {
     top: 30px;
     left: 30px; 
   }
-.contents {
-    width: 733px;
+
+#quote {
+    display: block;
 }
-.contents, img {
-    float: left;    
-}  
