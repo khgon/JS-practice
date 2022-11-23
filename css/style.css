@@ -62,12 +62,11 @@ h2 {
 }
 
 ul {
-    display: table;
     list-style:none;
     line-height: 200%;
-    margin-left: 200px;
-    margin-right: auto;
-    text-align: left;
+    margin-left: 0px;
+    padding-left: 0px;
+    text-align: center;
   }
 
 #weather {
@@ -77,6 +76,6 @@ ul {
     left: 30px; 
   }
 
-#quote {
-    display: block;
+#todo-list span {
+    padding: 0px 10px;
 }
